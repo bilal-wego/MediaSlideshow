@@ -54,6 +54,11 @@ public class MediaSlideshowAVSlide: AVPlayerView, MediaSlideshowSlide {
         playerTimeControlStatusObservation = source.player.observe(\.timeControlStatus) { [weak self] player, _ in
             self?.overlayView?.playerDidUpdateStatus(player.timeControlStatus)
         }
+            
+        if UIApplication.shared.userInterfaceLayoutDirection == .rightToLeft {
+            self.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi))
+        }
+            
         NotificationCenter.default.addObserver(
             self,
             selector: #selector(playerItemDidPlayToEndTime(notification:)),

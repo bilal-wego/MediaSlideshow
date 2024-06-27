@@ -3,14 +3,14 @@ PODS:
   - AlamofireImage (4.1.0):
     - Alamofire (~> 5.1)
   - Kingfisher (6.0.1)
-  - MediaSlideshow/Alamofire (2.1.0):
+  - MediaSlideshow/Alamofire (2.1.1):
     - AlamofireImage (~> 4.0)
     - MediaSlideshow/Core
-  - MediaSlideshow/Core (2.1.0)
-  - MediaSlideshow/Kingfisher (2.1.0):
+  - MediaSlideshow/Core (2.1.1)
+  - MediaSlideshow/Kingfisher (2.1.1):
     - Kingfisher (> 3.0)
     - MediaSlideshow/Core
-  - MediaSlideshow/SDWebImage (2.1.0):
+  - MediaSlideshow/SDWebImage (2.1.1):
     - MediaSlideshow/Core
     - SDWebImage (>= 3.7)
   - SDWebImage (5.10.2):
@@ -37,9 +37,9 @@ SPEC CHECKSUMS:
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
   AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
   Kingfisher: adde87a4f74f6a3845395769354efff593581740
-  MediaSlideshow: a899456be045e2dfd85de34382ba28511655cd6f
+  MediaSlideshow: adf1fd72ab37f3ecc78f74cc1da67f9cfdfccbb8
   SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
 
 PODFILE CHECKSUM: 62cb7d319bac1403a44c5629ea7bd7ea579a160c
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.15.2
